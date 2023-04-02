@@ -151,21 +151,25 @@ def question():
                       print("\nRekomendasi Indihome")
                     elif q14 == "n":
                       print(vsat())
-                      print("\nRekomendasi Vsat")
+                      print("\nRekomendasi Vsat atau Data yang tersedia pada daerah anda")
                   elif q13 == "n":
                     print(k14)
                     q14 = input("Jawab: ").lower()
                     if q14 == "y":
-                      print("Rekomendasi Indihome")
+                      print(indihome())
+                      print("\nRekomendasi Indihome")
                     elif q14 == "n":
-                      print("Rekomendasi Vsat")
+                      print(vsat())
+                      print("\nRekomendasi Vsat atau Data yang tersedia pada daerah anda")
               elif q11 == "n":
                 print(k13)
                 q13 = input("Jawab: ").lower()
                 if q13 == "y":
-                  print("Rekomendasi Vsat")
+                  print(vsat())
+                  print("\nRekomendasi Vsat")
                 elif q13 == "n":
-                  print("Rekomendasi Telkomsel")
+                  print(telkomsel())
+                  print("\nRekomendasi Telkomsel")
             elif q10 == "n":
               print(k11)
               q11 = input("Jawab: ").lower()
@@ -176,11 +180,16 @@ def question():
                   print(k13)
                   q13 = input("Jawab: ").lower()
                   if q13 == "y":
-                    print("Rekomendasi Indihome")
+                    print(indihome())
+                    print("\nRekomendasi Indihome")
                   elif q13 == "n":
                     print("Rekomendasi Telkomsel")
+                elif q12 == "n":
+                  print(telkomsel())
+                  print("\nRekomendasi Telkomsel")
               elif q11 == "n":
-                print("Rekomendasi Telkomsel")
+                print(telkomsel())
+                print("\nRekomendasi Telkomsel")
         elif q4 == "n":
           print(k5)
           q5 = input("Jawab: ").lower()
