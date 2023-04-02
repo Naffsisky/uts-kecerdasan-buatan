@@ -200,19 +200,28 @@ def question():
               print(k7)
               q7 = input("Jawab: ").lower()
               if q7 == "y":
-                print("Rekomendasi WiFi")
+                print(cbn())
+                print(biznet())
+                print(indihome())
+                print("\nRekomendasi CBN / Biznet / Indihome")
               elif q7 == "n":
                 print(k8)
                 q8 = input("Jawab: ").lower()
                 if q8 == "y":
-                  print("Rekomendasi Indihome")
+                  print(indihome())
+                  print(firstMedia())
+                  print("\nRekomendasi Indihome / First Media")
                 elif q8 == "n":
                   print(k9)
                   q9 = input("Jawab: ").lower()
                   if q9 == "y":
-                    print("Rekomendasi WiFi Gamers")
+                    print(biznet())
+                    print(myRepublic())
+                    print(indihome())
+                    print("\nRekomendasi Biznet / My Republic / Indihome")
                   elif q9 == "n":
-                    print("Rekomendasi WiFi")
+                    print(indihome())
+                    print("\nRekomendasi Indihome")
             elif q6 == "n":
               print(k8)
               q8 = input("Jawab: ").lower()
