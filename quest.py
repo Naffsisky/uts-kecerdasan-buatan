@@ -335,31 +335,46 @@ def question():
             print(k7)
             q7 = input("Jawab: ").lower()
             if q7 == "y":
-              print("Rekomendasi WiFi")
+              print(indihome())
+              print(biznet())
+              print("\nRekomendasi Indihome / Biznet")
             elif q7 == "n":
               print(k8)
               q8 = input("Jawab: ").lower()
               if q8 == "y":
-                print("Rekomendasi Indihome")
+                print(indihome())
+                print("\nRekomendasi Indihome")
               elif q8 == "n":
                 print(k9)
                 q9 = input("Jawab: ").lower()
                 if q9 == "y":
-                  print("Rekomendasi WiFi Gamers")
+                  print(indihome())
+                  print(biznet())
+                  print("\nRekomendasi Indihome / Biznet")
                 elif q9 == "n":
-                  print("Rekomendasi WiFi")
+                  print(indihome())
+                  print("\nRekomendasi Indihome")
           elif q6 == "n":
             print(k8)
             q8 = input("Jawab: ").lower()
             if q8 == "y":
-              print("Rekomendasi Data untuk Streaming")
+              print(xl())
+              print(tri())
+              print(axis())
+              print("\nRekomendasi XL / Tri / Axis")
             elif q8 == "n":
               print(k9)
               q9 = input("Jawab: ").lower()
               if q9 == "y":
-                print("Rekomendasi Data sekitar < 50GB")
+                print(telkomsel())
+                print(indosat())
+                print(smartfren())
+                print("\nRekomendasi Telkomsel / Indosat / Smartfren")
               elif q9 == "n":
-                print("Rekomendasi Data biasa")
+                print(telkomsel())
+                print(tri())
+                print(axis())
+                print("\nRekomendasi Tri / Axis / Telkomsel")
         elif q5 == "n":
           print(k10)
           q10 = input("Jawab: ").lower()
