@@ -391,16 +391,21 @@ def question():
                   print(k14)
                   q14 = input("Jawab: ").lower()
                   if q14 == "y":
-                    print("Rekomendasi Indihome")
+                    print(indihome())
+                    print(firstMedia())
+                    print("\nRekomendasi Indihome / First Media")
                   elif q14 == "n":
-                    print("Rekomendasi Vsat")
+                    print(vsat())
+                    print("\nRekomendasi Vsat")
                 elif q13 == "n":
                   print(k14)
                   q14 = input("Jawab: ").lower()
                   if q14 == "y":
-                    print("Rekomendasi Indihome")
+                    print(indihome())
+                    print("\nRekomendasi Indihome")
                   elif q14 == "n":
-                    print("Rekomendasi Vsat")
+                    print(vsat())
+                    print("\nRekomendasi Vsat")
               elif q12 == "n":
                 print(k13)
                 q13 = input("Jawab: ").lower()
@@ -408,23 +413,29 @@ def question():
                   print(k14)
                   q14 = input("Jawab: ").lower()
                   if q14 == "y":
-                    print("Rekomendasi Indihome")
+                    print(indihome())
+                    print("\nRekomendasi Indihome")
                   elif q14 == "n":
-                    print("Rekomendasi Vsat")
+                    print(vsat())
+                    print("\nRekomendasi Vsat")
                 elif q13 == "n":
                   print(k14)
                   q14 = input("Jawab: ").lower()
                   if q14 == "y":
-                    print("Rekomendasi Indihome")
+                    print(indihome())
+                    print("\nRekomendasi Indihome")
                   elif q14 == "n":
-                    print("Rekomendasi Vsat")
+                    print(vsat())
+                    print("\nRekomendasi Vsat")
             elif q11 == "n":
               print(k13)
               q13 = input("Jawab: ").lower()
               if q13 == "y":
-                print("Rekomendasi Vsat")
+                print(vsat())
+                print("\nRekomendasi Vsat")
               elif q13 == "n":
-                print("Rekomendasi Telkomsel")
+                print(telkomsel())
+                print("\nRekomendasi Telkomsel")
           elif q10 == "n":
             print(k11)
             q11 = input("Jawab: ").lower()
@@ -435,13 +446,17 @@ def question():
                 print(k13)
                 q13 = input("Jawab: ").lower()
                 if q13 == "y":
-                  print("Rekomendasi Indihome")
+                  print(indihome())
+                  print("\nRekomendasi Indihome")
                 elif q13 == "n":
-                  print("Rekomendasi Telkomsel")
+                  print(telkomsel())
+                  print("\nRekomendasi Telkomsel")
               elif q12 == "n":
-                print("Rekomendasi Telkomsel")
+                print(telkomsel())
+                print("\nRekomendasi Telkomsel")
             elif q11 == "n":
-              print("Rekomendasi Telkomsel")
+              print(telkomsel())
+              print("\nRekomendasi Telkomsel")
     elif q2 == "n":
       print(k3)
       q3 = input("Jawab: ").lower()
