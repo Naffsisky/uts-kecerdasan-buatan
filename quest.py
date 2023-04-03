@@ -226,14 +226,24 @@ def question():
               print(k8)
               q8 = input("Jawab: ").lower()
               if q8 == "y":
-                print("Rekomendasi Data untuk Streaming")
+                print(indihome())
+                print(firstMedia())
+                print(telkomsel())
+                print(xl())
+                print("\nRekomendasi Telkomsel / XL")
               elif q8 == "n":
                 print(k9)
                 q9 = input("Jawab: ").lower()
                 if q9 == "y":
-                  print("Rekomendasi Data sekitar < 50GB")
+                  print(telkomsel())
+                  print(smartfren())
+                  print("\nRekomendasi Telkomsel / Smartfren")
                 elif q9 == "n":
-                  print("Rekomendasi Data biasa")
+                  print(telkomsel())
+                  print(tri())
+                  print(axis())
+                  print(indosat())
+                  print("\nRekomendasi Telkomsel / Tri / Axis / Indosat")
           elif q5 == "n":
             print(k10)
             q10 = input("Jawab: ").lower()
@@ -250,16 +260,20 @@ def question():
                     print(k14)
                     q14 = input("Jawab: ").lower()
                     if q14 == "y":
-                      print("Rekomendasi Indihome")
+                      print(indihome())
+                      print("\nRekomendasi Indihome")
                     elif q14 == "n":
-                      print("Rekomendasi Vsat")
+                      print(vsat())
+                      print("\nRekomendasi Vsat")
                   elif q13 == "n":
                     print(k14)
                     q14 = input("Jawab: ").lower()
                     if q14 == "y":
-                      print("Rekomendasi Indihome")
+                      print(indihome())
+                      print("\nRekomendasi Indihome")
                     elif q14 == "n":
-                      print("Rekomendasi Vsat")
+                      print(vsat())
+                      print("\nRekomendasi Vsat")
                 elif q12 == "n":
                   print(k13)
                   q13 = input("Jawab: ").lower()
@@ -267,23 +281,29 @@ def question():
                     print(k14)
                     q14 = input("Jawab: ").lower()
                     if q14 == "y":
-                      print("Rekomendasi Indihome")
+                      print(indihome())
+                      print("\nRekomendasi Indihome")
                     elif q14 == "n":
-                      print("Rekomendasi Vsat")
+                      print(vsat())
+                      print("\nRekomendasi Vsat")
                   elif q13 == "n":
                     print(k14)
                     q14 = input("Jawab: ").lower()
                     if q14 == "y":
-                      print("Rekomendasi Indihome")
+                      print(indihome())
+                      print("\nRekomendasi Indihome")
                     elif q14 == "n":
-                      print("Rekomendasi Vsat")
+                      print(vsat())
+                      print("\nRekomendasi Vsat")
               elif q11 == "n":
                 print(k13)
                 q13 = input("Jawab: ").lower()
                 if q13 == "y":
-                  print("Rekomendasi Vsat")
+                  print(vsat())
+                  print("\nRekomendasi Vsat")
                 elif q13 == "n":
-                  print("Rekomendasi Telkomsel")
+                  print(telkomsel())
+                  print("\nRekomendasi Telkomsel / Data yang tersedia")
             elif q10 == "n":
               print(k11)
               q11 = input("Jawab: ").lower()
@@ -294,13 +314,17 @@ def question():
                   print(k13)
                   q13 = input("Jawab: ").lower()
                   if q13 == "y":
-                    print("Rekomendasi Indihome")
+                    print(indihome())
+                    print("\nRekomendasi Indihome")
                   elif q13 == "n":
-                    print("Rekomendasi Telkomsel")
+                    print(telkomsel())
+                    print("\nRekomendasi Telkomsel")
                 elif q12 == "n":
-                  print("Rekomendasi Telkomsel")
+                  print(telkomsel())
+                  print("\nRekomendasi Telkomsel")
               elif q11 == "n":
-                print("Rekomendasi Telkomsel")
+                print(telkomsel())
+                print("\nRekomendasi Telkomsel")
       elif q3 == "n":
         print(k5)
         q5 = input("Jawab: ").lower()
