@@ -139,7 +139,7 @@ def question():
                       print("\nRekomendasi Indihome")
                     elif q14 == "n":
                       print(vsat())
-                      print("Rekomendasi Vsat atau Data yang tersedia pada daerah anda")
+                      print("\nRekomendasi Vsat atau Data yang tersedia pada daerah anda")
                 elif q12 == "n":
                   print(k13)
                   q13 = input("Jawab: ").lower()
@@ -470,19 +470,25 @@ def question():
             print(k7)
             q7 = input("Jawab: ").lower()
             if q7 == "y":
-              print("Rekomendasi WiFi")
+              print(indihome())
+              print(biznet())
+              print("\nRekomendasi Indihome / Biznet")
             elif q7 == "n":
               print(k8)
               q8 = input("Jawab: ").lower()
               if q8 == "y":
-                print("Rekomendasi Indihome")
+                print(indihome())
+                print("\nRekomendasi Indihome")
               elif q8 == "n":
                 print(k9)
                 q9 = input("Jawab: ").lower()
                 if q9 == "y":
-                  print("Rekomendasi WiFi Gamers")
+                  print(biznet())
+                  print(indihome())
+                  print("\nRekomendasi Biznet / Indihome")
                 elif q9 == "n":
-                  print("Rekomendasi WiFi")
+                  print(indihome())
+                  print("\nRekomendasi Indihome")
           elif q6 == "n":
             print(k8)
             q8 = input("Jawab: ").lower()
