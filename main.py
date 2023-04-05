@@ -1,6 +1,6 @@
 import os
 import pwinput as pw
-from quest import *
+import quest
 # import getpass as gp
 
 def login():
@@ -11,6 +11,7 @@ def login():
             data = line.strip().split(",")
             if username == data[0] and password == data[1]:
                 print("Login Berhasil!")
+                quest.question()
                 return
     print("Username / Password Salah!")
 
@@ -50,7 +51,6 @@ def main():
             break
         elif pilihan == 2:
             login()
-            question()
             break
         elif pilihan == 0:
             exit()
@@ -58,10 +58,10 @@ def main():
             print("Pilihan / Menu tidak ada!")
 
 if __name__ == "__main__":
-    while(True):
-        main()
-        print("\n\nLanjut?\n1. Ya\n2. Tidak")
-        pilihan = int(input("Masukan pilihan : "))
-        if pilihan == 2:
-            break
-    print("Terima Kasih!")
+  while(True):
+    main()
+    print("Lanjut?\n1. Ya\n2. Tidak")
+    pilihan = int(input("Masukan pilihan : "))
+    if pilihan == 2:
+      print("Terima Kasih!")
+      break
